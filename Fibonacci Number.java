@@ -14,7 +14,7 @@ class Solution {
     }
 }
 // Runtime: 21 ms, faster than 59.52% of Java online submissions for First Unique Character in a String.O(N)
-// Memory Usage: 39.7 MB, less than 43.02% of Java online submissions for First Unique Character in a String.
+// Memory Usage: 39.7 MB, less than 43.02% of Java online submissions for First Unique Character in a String.O(N)
 
 public class Solution {
     public int fib(int N) {
@@ -25,4 +25,4 @@ public class Solution {
     }
 }
 // Runtime: 7 ms, faster than 27.50% of Java online submissions for Fibonacci Number.O(2^N)
-// Memory Usage: 35.4 MB, less than 98.02% of Java online submissions for Fibonacci Number. 
+// Memory Usage: 35.4 MB, less than 98.02% of Java online submissions for Fibonacci Number. O(N).

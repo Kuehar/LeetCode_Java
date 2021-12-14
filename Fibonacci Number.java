@@ -24,3 +24,5 @@ public class Solution {
         return fib(N - 1) + fib(N - 2);
     }
 }
+// Runtime: 7 ms, faster than 27.50% of Java online submissions for Fibonacci Number.O(N)
+// Memory Usage: 35.4 MB, less than 98.02% of Java online submissions for Fibonacci Number. 

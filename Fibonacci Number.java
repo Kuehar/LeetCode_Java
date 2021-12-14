@@ -13,3 +13,5 @@ class Solution {
         return cache[N];
     }
 }
+// Runtime: 21 ms, faster than 59.52% of Java online submissions for First Unique Character in a String.
+// Memory Usage: 39.7 MB, less than 43.02% of Java online submissions for First Unique Character in a String.

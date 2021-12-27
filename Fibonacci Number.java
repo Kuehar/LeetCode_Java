@@ -15,6 +15,7 @@ class Solution {
 }
 // Runtime: 21 ms, faster than 59.52% of Java online submissions for First Unique Character in a String.O(N)
 // Memory Usage: 39.7 MB, less than 43.02% of Java online submissions for First Unique Character in a String.O(N)
+// Cacheはメモ化
 
 public class Solution {
     public int fib(int N) {

@@ -1,11 +1,7 @@
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int length = nums.length;
-        
-        if(length==0) return 0;
-        
+    public int removeDuplicates(int[] nums) {        
+        if(nums.length==0) return 0;
         int targetIndex=1,currentNum=nums[0];
-        
         for(int i=1;i<nums.length;i++){
             if(nums[i] != currentNum){
                 currentNum = nums[i];

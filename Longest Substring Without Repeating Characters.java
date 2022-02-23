@@ -19,3 +19,20 @@ class Solution {
 }
 // Runtime: 6 ms, faster than 79.40% of Java online submissions for Longest Substring Without Repeating Characters.
 // Memory Usage: 43.6 MB, less than 41.98% of Java online submissions for Longest Substring Without Repeating Characters.
+
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int n = s.length(),ans = 0;
+        Map<Character,Integer> map = new HashMap<>();
+        for(int j=0,i=0;j<n;j++){
+            if(map.containsKey(s.charAt(j))){
+            i = Math.max(map.get(s.charAt(j)),i);
+            }
+        ans = Math.max(ans,j-i+1);
+        map.put(s.charAt(j),j+1);
+        }
+        return ans;
+    }
+}
+// Runtime: 7 ms, faster than 73.62% of Java online submissions for Longest Substring Without Repeating Characters.
+// Memory Usage: 45 MB, less than 29.72% of Java online submissions for Longest Substring Without Repeating Characters.

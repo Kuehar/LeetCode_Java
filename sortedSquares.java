@@ -29,5 +29,5 @@ class Solution {
         return ans;
     }
 }
-// Runtime: 2 ms, faster than 80.64% of Java online submissions for Squares of a Sorted Array.
+// Runtime: 2 ms, faster than 80.64% of Java online submissions for Squares of a Sorted Array. O(n)
 // Memory Usage: 55.8 MB, less than 16.10% of Java online submissions for Squares of a Sorted Array.

@@ -21,7 +21,6 @@ class Solution {
         for(int i=0;i<n;i++){
             //  [1,2,3,4,5,6,7],k=3の場合、[(i+k) % n]は3,4,5,6,0,1,2になる
             tempNums[(i+k) % n] = nums[i];
-            System.out.println((i+k) % n);
         }
         for(int i=0;i<n;i++){
             nums[i] = tempNums[i];

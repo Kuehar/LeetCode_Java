@@ -24,3 +24,5 @@ class Solution {
         }
     }
 }
+// Runtime: 0 ms, faster than 100.00% of Java online submissions for Maximum Depth of Binary Tree.
+// Memory Usage: 43.1 MB, less than 38.99% of Java online submissions for Maximum Depth of Binary Tree.

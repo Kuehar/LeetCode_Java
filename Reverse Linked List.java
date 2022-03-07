@@ -13,9 +13,13 @@ class Solution {
         ListNode prev = null;
         ListNode curr = head;
         while(curr != null){
+            // currの次のノードを保管するためのtempを作成し、保存する
             ListNode temp = curr.next;
+            // curr.nextをprev(自分の参照元)に付け替える
             curr.next = prev;
+            // prevの値をcurrに更新する
             prev = curr;
+            // currを最初に保存しておいたtemp(中身はcurr.next)に代入する。この行と一つ上の処理でcurr,prevが一つずつ次にずれる
             curr = temp;
         }
         return prev;

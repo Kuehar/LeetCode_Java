@@ -72,3 +72,22 @@ class Solution {
 }
 // Runtime: 108 ms, faster than 5.32% of Java online submissions for Pascal's Triangle II.
 // Memory Usage: 42.9 MB, less than 5.28% of Java online submissions for Pascal's Triangle II.
+
+class Solution {
+  public List<Integer> getRow(int n) {
+    List<Integer> row =
+        new ArrayList<>() {
+          {
+            add(1);
+          }
+        };
+
+    for (int k = 1; k <= n; k++) {
+      row.add((int) ((row.get(row.size() - 1) * (long) (n - k + 1)) / k));
+    }
+
+    return row;
+  }
+}
+// Runtime: 1 ms, faster than 88.77% of Java online submissions for Pascal's Triangle II.
+// Memory Usage: 41.3 MB, less than 78.58% of Java online submissions for Pascal's Triangle II.

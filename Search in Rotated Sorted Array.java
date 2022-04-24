@@ -8,3 +8,4 @@ class Solution {
 }
 // Runtime: 0 ms, faster than 100.00% of Java online submissions for Search in Rotated Sorted Array.
 // Memory Usage: 42 MB, less than 81.02% of Java online submissions for Search in Rotated Sorted Array.
+// time complexity is log(n)

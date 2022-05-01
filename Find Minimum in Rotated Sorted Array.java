@@ -30,3 +30,4 @@ class Solution {
 }
 // Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Minimum in Rotated Sorted Array.
 // Memory Usage: 41.8 MB, less than 91.33% of Java online submissions for Find Minimum in Rotated Sorted Array.
+// Time complexity is O(logn).

@@ -1,5 +1,5 @@
 class Solution{
-  private HashMap<Integer,Integer> points = new HashMap<>();
+    private HashMap<Integer,Integer> points = new HashMap<>();
     private HashMap<Integer, Integer> cache = new HashMap<>();
     
     private int maxPoints(int num) {
@@ -34,3 +34,4 @@ class Solution{
         return maxPoints(maxNumber);
     }
 }
+// Time complexity is O(n).

@@ -29,3 +29,4 @@ class Solution {
         return dummy.next;
     }
 }
+// time complexity is O(n). n is length of LinkedList

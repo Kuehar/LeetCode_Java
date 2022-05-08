@@ -16,3 +16,4 @@ class Solution {
 }
 // Runtime: 0 ms, faster than 100.00% of Java online submissions for Binary Search. Time complexity is O(logN)
 // Memory Usage: 54.4 MB, less than 17.13% of Java online submissions for Binary Search.
+// Time complexity is O(nlogn).

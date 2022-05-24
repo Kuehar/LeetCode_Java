@@ -22,3 +22,4 @@ class Solution {
         return -1;
     }
 }
+// Time Limit Exceeded. the worst case is O(S^N)
